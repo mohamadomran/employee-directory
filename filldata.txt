@@ -1,0 +1,12 @@
+CREATE TABLE "employee" (
+  id SERIAL PRIMARY KEY,
+  firstname varchar(255) default NULL,
+  lastname varchar(255) default NULL,
+  title varchar(255) default NULL,
+  department varchar(255) default NULL,
+  location varchar(255) default NULL,
+  email varchar(255) default NULL
+);
+
+INSERT INTO "employee" (firstname,lastname,title,department,location,email) VALUES ('Zeus','Benson','UX Designer','Research and Development','London','Phasellus@necleoMorbi.org'),('Ryder','Hogan','Marketing Specialist','Quality Assurance','London','lacinia.Sed@eleifendnec.edu'),('Tucker','Lucas','Web Designer','Media Relations','Warsaw','vitae@loremDonec.net'),('Garrison','Moran','UX Designer','Quality Assurance','London','Nunc.mauris@accumsan.net'),('Merritt','Glenn','Marketing Specialist','Tech Support','Warsaw','ipsum.dolor@diamloremauctor.ca'),('Anthony','Clemons','Web Designer','Quality Assurance','London','libero.Morbi@non.co.uk'),('Russell','Moss','IT Professional','Research and Development','Warsaw','gravida.molestie@enimEtiamimperdiet.edu'),('Ross','Bowers','Web Designer','Tech Support','New York','malesuada.fames@dictummiac.org'),('Kibo','Clarke','Brand Manager','Quality Assurance','New York','Duis@quama.net'),('Kyle','Mcleod','UX Designer','Quality Assurance','Beirut','volutpat@elitNulla.org');
+INSERT INTO "employee" (firstname,lastname,title,department,location,email) VALUES ('Scarlett','Stuart','Web Designer','Quality Assurance','Beirut','sem.egestas.blandit@augueeutempor.edu'),('Hammett','Ortiz','UX Designer','Tech Support','New York','Ut@egestas.ca'),('Orson','Richard','Software Engineer','Media Relations','Warsaw','malesuada.fringilla@Sedeu.edu'),('Leilani','Hogan','Brand Manager','Tech Support','New York','lorem.luctus.ut@egestashendrerit.ca'),('Jonas','Hawkins','Brand Manager','Quality Assurance','Warsaw','ultrices.iaculis@molestiepharetranibh.ca'),('Amity','Horn','Web Designer','Media Relations','London','turpis.egestas@orcitinciduntadipiscing.net'),('Quynn','Holden','Marketing Specialist','Quality Assurance','London','pede.malesuada@primisin.edu'),('Kelsey','Rice','IT Professional','Tech Support','Warsaw','lacinia.Sed.congue@Aliquamultricesiaculis.org'),('Doris','Giles','Brand Manager','Tech Support','New York','mollis@Lorem.co.uk'),('Macy','Dejesus','Software Engineer','Tech Support','London','ligula.Nullam@arcu.ca');
